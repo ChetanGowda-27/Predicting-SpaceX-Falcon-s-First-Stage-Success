@@ -68,7 +68,7 @@ Implemented and compared 5 classification models:
 ## 🖥️ Final Presentation
 
 📽️ View the summary slides of the project:
-[🎓 Final Capstone Presentation (PDF)](https://github.com/ChetanGowda-27/Predicting-SpaceX-Falcon-s-First-Stage-Success/blob/main/Nilesh%20Capstone%20Presentation.pdf)
+[🎓 Final Capstone Presentation (PDF)](https://github.com/ChetanGowda-27/Predicting-SpaceX-Falcon-s-First-Stage-Success/blob/main/Capstone%20Presentation.pdf)
 
 ---
 
