@@ -1,33 +1,90 @@
-# IBM Capstone - Predicting SpaceX's Falcon 9 First Stage Success 
-## Tools Used:
-- Jupyter Notebook
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
-- Folium
-- Plotly Dash
-- BeautifulSoup
-- APIs
-- Machine Learning (Classification)
-- SQL
-- Microsoft PowerPoint
-## Description:
-- Developed a predictive model to determine the success of Falcon 9 first stage landings, utilizing over 1,000 data points collected via SpaceX Rest API and web scraping from Wikipedia, and performed extensive data wrangling, exploratory data analysis (EDA), interactive visual analytics, and predictive analysis.
-- Conducted EDA using SQL and visualization tools, including 6 different graphs, to identify key factors influencing rocket landing success and correlations between 10+ variables.
-- Integrated Folium and Plotly Dash for interactive visual analytics, and implemented and fine tuned 5 classification models achieving a predictive accuracy of 83% for landing success rates.
-## Preview:
-- 1.0 Data Collection:
-  - [API Notebook](https://github.com/ndomah/Portfolio-Projects/blob/main/Data%20Science/Predicting%20SpaceX%20Falcon's%20First%20Stage%20Success%20(IBM%20Capstone)/1.0%20Data%20Collection/1.1%20Data%20Collection%20-%20API.ipynb)
-  - [Web Scraping Notebook](https://github.com/ndomah/Portfolio-Projects/blob/main/Data%20Science/Predicting%20SpaceX%20Falcon's%20First%20Stage%20Success%20(IBM%20Capstone)/1.0%20Data%20Collection/1.2%20Data%20Collection%20-%20Web%20Scraping.ipynb)
-- 2.0 Data Wrangling:
-  - [Data Wrangling Notebook](https://github.com/ndomah/Portfolio-Projects/blob/main/Data%20Science/Predicting%20SpaceX%20Falcon's%20First%20Stage%20Success%20(IBM%20Capstone)/2.0%20Data%20Wrangling/2.1%20Data%20Wrangling.ipynb)
-- 3.0 Exploratory Data Analysis:
-  - [SQL Notebook](https://github.com/ndomah/Portfolio-Projects/blob/main/Data%20Science/Predicting%20SpaceX%20Falcon's%20First%20Stage%20Success%20(IBM%20Capstone)/3.0%20Exploratory%20Data%20Analysis/3.1%20Exploratory%20Data%20Analysis%20-%20SQL.ipynb)
-  - [Data Visualization Notebook](https://github.com/ndomah/Portfolio-Projects/blob/main/Data%20Science/Predicting%20SpaceX%20Falcon's%20First%20Stage%20Success%20(IBM%20Capstone)/3.0%20Exploratory%20Data%20Analysis/3.2%20Exploratory%20Data%20Analysis%20-%20Data%20Visualization.ipynb)
-- 4.0 Interactive Visual Analytics
-  - [Folium Notebook](https://github.com/ndomah/Portfolio-Projects/blob/main/Data%20Science/Predicting%20SpaceX%20Falcon's%20First%20Stage%20Success%20(IBM%20Capstone)/4.0%20Interactive%20Visual%20Analytics/4.1%20Interactive%20Visual%20Analytics%20-%20Folium.ipynb)
-  - [Plotly Dash App](https://github.com/ndomah/Portfolio-Projects/blob/main/Data%20Science/Predicting%20SpaceX%20Falcon's%20First%20Stage%20Success%20(IBM%20Capstone)/4.0%20Interactive%20Visual%20Analytics/4.2%20Interactive%20Visual%20Analytics%20-%20Plotly%20Dash%20dashboard_%20spacex_dash_app.py)
-- 5.0 Predictive Analysis (Classification):
-  - [ML Prediction Notebook](https://github.com/ndomah/Portfolio-Projects/blob/main/Data%20Science/Predicting%20SpaceX%20Falcon's%20First%20Stage%20Success%20(IBM%20Capstone)/5.0%20Predictive%20Analysis%20(Classification)/5.1%20Predictive%20Analysis%20(Classification).ipynb)
-- [Final Presentation](https://github.com/ndomah/Portfolio-Projects/blob/main/Data%20Science/Predicting%20SpaceX%20Falcon's%20First%20Stage%20Success%20(IBM%20Capstone)/Nilesh%20Capstone%20Presentation.pdf)
+---
+
+# 🚀 Predicting SpaceX Falcon 9 First Stage Landing Success
+
+## IBM Data Science Capstone Project
+
+### 🔬 Project Objective
+
+Build a machine learning model to **predict the success of SpaceX Falcon 9 rocket first stage landings**, using real-world data collected via APIs and web scraping. This project is a capstone for the IBM Data Science Professional Certificate and demonstrates skills in data wrangling, EDA, interactive visualizations, and classification modeling.
+
+---
+
+## 🛠 Tools & Technologies Used
+
+* **Languages & Libraries**: Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+* **Data Sources**: SpaceX REST API, Wikipedia (via BeautifulSoup)
+* **Databases**: SQL (via SQLite)
+* **Visualization Tools**: Folium, Plotly Dash, Matplotlib, Seaborn
+* **ML Algorithms**: Logistic Regression, Decision Tree, SVM, KNN, Random Forest
+* **Environment**: Jupyter Notebooks
+* **Presentation**: Microsoft PowerPoint
+
+---
+
+## 📈 Project Workflow
+
+### 1. 📥 Data Collection
+
+Collected over 1,000 data points using:
+
+* 📡 [SpaceX API](https://github.com/ChetanGowda-27/Predicting-SpaceX-Falcon-s-First-Stage-Success/blob/main/1.0%20Data%20Collection/1.1%20Data%20Collection%20-%20API.ipynb)
+* 🧹 [Web Scraping from Wikipedia](https://github.com/ChetanGowda-27/Predicting-SpaceX-Falcon-s-First-Stage-Success/blob/main/1.0%20Data%20Collection/1.2%20Data%20Collection%20-%20Web%20Scraping.ipynb)
+
+### 2. 🧼 Data Wrangling
+
+Cleaned and merged datasets, handled missing values, and performed feature engineering.
+🔗 [Data Wrangling Notebook](https://github.com/ChetanGowda-27/Predicting-SpaceX-Falcon-s-First-Stage-Success/blob/main/2.0%20Data%20Wrangling/2.1%20Data%20Wrangling.ipynb)
+
+### 3. 🔍 Exploratory Data Analysis (EDA)
+
+Performed in-depth analysis using:
+
+* 🗃 [SQL Queries](https://github.com/ChetanGowda-27/Predicting-SpaceX-Falcon-s-First-Stage-Success/blob/main/3.0%20Exploratory%20Data%20Analysis/3.1%20Exploratory%20Data%20Analysis%20-%20SQL.ipynb)
+* 📊 [Matplotlib & Seaborn Visualizations](https://github.com/ChetanGowda-27/Predicting-SpaceX-Falcon-s-First-Stage-Success/blob/main/3.0%20Exploratory%20Data%20Analysis/3.2%20Exploratory%20Data%20Analysis%20-%20Data%20Visualization.ipynb)
+
+### 4. 🌍 Interactive Visual Analytics
+
+Developed maps and dashboards for stakeholder-friendly analysis.
+
+* 🌐 [Folium Launch Site Maps](https://github.com/ChetanGowda-27/Predicting-SpaceX-Falcon-s-First-Stage-Success/blob/main/4.0%20Interactive%20Visual%20Analytics/4.1%20Interactive%20Visual%20Analytics%20-%20Folium.ipynb)
+* 📉 [Plotly Dash Dashboard App](https://github.com/ChetanGowda-27/Predicting-SpaceX-Falcon-s-First-Stage-Success/blob/main/4.0%20Interactive%20Visual%20Analytics/4.2%20Interactive%20Visual%20Analytics%20-%20Plotly%20Dash%20dashboard_%20spacex_dash_app.py)
+
+### 5. 🤖 Predictive Modeling
+
+Implemented and compared 5 classification models:
+
+* Logistic Regression
+* Support Vector Machine (SVM)
+* K-Nearest Neighbors (KNN)
+* Decision Tree
+* Random Forest
+
+🎯 **Best model achieved 83% accuracy** in predicting landing success.
+📂 [Machine Learning Notebook](https://github.com/ChetanGowda-27/Predicting-SpaceX-Falcon-s-First-Stage-Success/blob/main/5.0%20Predictive%20Analysis%20%28Classification%29/5.1%20Predictive%20Analysis%20%28Classification%29.ipynb)
+
+---
+
+## 🖥️ Final Presentation
+
+📽️ View the summary slides of the project:
+[🎓 Final Capstone Presentation (PDF)](https://github.com/ChetanGowda-27/Predicting-SpaceX-Falcon-s-First-Stage-Success/blob/main/Nilesh%20Capstone%20Presentation.pdf)
+
+---
+
+## 🚧 Future Improvements
+
+* Integrate real-time SpaceX data pipelines
+* Hyperparameter tuning with GridSearchCV or Bayesian Optimization
+* Deploy interactive dashboard on cloud (Heroku, Streamlit, or AWS)
+
+---
+
+
+---
+
+## 📌 Repository
+
+🔗 GitHub Repo: [ChetanGowda-27/Predicting-SpaceX-Falcon-s-First-Stage-Success](https://github.com/ChetanGowda-27/Predicting-SpaceX-Falcon-s-First-Stage-Success.git)
+
+---
